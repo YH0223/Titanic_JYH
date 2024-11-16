@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "titanic-jyh"
+version = "0.0.1"
+description = "Titanic Machine Learning project_YH0223"
+authors = ["YH0223 <jinin000223@gmail.com>"]
+license = "MIT" 
+readme = "README.md"
+packages = [{include = "titanic_jyh"}]
+homepage = "https://github.com/YH0223"
+repository = "https://github.com/YH0223/Titanic_JYH"
+keywords = ["data", "analysis", "titanic", "ML"]
+
+[tool.poetry.dependencies]
+python = "^3.9"  
+numpy = "1.26.4"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"  
+scipy = "1.13.1"
+seaborn = "0.13.2"
+matplotlib = "3.9.2"
+ipykernel = "6.29.5"
+ipython = "8.15.0"
+jupyter_client = "8.6.0"
+jupyter_core = "5.7.2"
+kaggle = "1.6.17"
+
+[build-system]
+requires = ["poetry-core>=1.4.0"] 
+build-backend = "poetry.core.masonry.api"
